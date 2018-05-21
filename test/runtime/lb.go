@@ -336,6 +336,8 @@ var _ = Describe("RuntimeValidatedLB", func() {
 	})
 
 	Context("Services Policies", func() {
+		// FIXME #4198
+		return
 
 		BeforeAll(func() {
 			vm.SampleContainersActions(helpers.Create, helpers.CiliumDockerNetwork)
